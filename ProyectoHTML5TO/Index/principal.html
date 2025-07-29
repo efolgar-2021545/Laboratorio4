@@ -1,0 +1,82 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Tienda de Teléfonos</title>
+    <link rel="stylesheet" href="../Styles/CSS.CSS">
+</head>
+<body>
+    <header>
+        <div class="container">
+            <h1>Tienda de Teléfonos</h1>
+            <nav>
+                <a href="../Index/principal.html">Inicio</a>
+                <a href="../Index/productos.html">Productos</a>
+                <a href="../Index/contacto.html">Contacto</a>
+                <a href="../index.html">Cerrar Sesion</a>
+            </nav>
+        </div>
+    </header>
+
+    <main>
+        <section class="hero-section">
+            <img src="../Images/FondoUno.jpg" alt="Fondo de la sección Hero - Tecnología">
+            
+            <div class="hero-content">
+                <h2>Descubre la Tecnología del Mañana</h2>
+                <a href="categorias.html" class="btn-primary">Ver Productos</a>
+            </div>
+
+            <div class="hero-info-area">
+                <div id="infoBox" class="info-box">
+                </div>
+                <div class="info-arrows">
+                    <button id="prevInfo">&#9664;</button> <button id="nextInfo">&#9654;</button>
+                </div>
+            </div>
+        </section>
+
+        <section class="bienvenida container">
+            <h2>Bienvenido a la mejor tienda de smartphones</h2>
+            <p>Explora nuestra amplia selección de teléfonos de última generación y encuentra el perfecto para ti.</p>
+        </section>
+
+        <section class="destacados container">
+            <h3>Productos Destacados</h3>
+            <div class="galeria">
+                <div class="producto-card">
+                    <img src="../Images/samsung2.jpg" alt="Samsung Galaxy S24">
+                    <h4>Samsung Galaxy S24</h4>
+                    <p>Potencia y estilo en tus manos.</p>
+                    <span class="price">$799</span>
+                    <a href="detalleProducto.html?id=SamsungS24" class="btn-secondary">Ver Detalles</a>
+                </div>
+                <div class="producto-card">
+                    <img src="../Images/IphonePro.jpg" alt="iPhone 15 Pro">
+                    <h4>iPhone 15 Pro Max</h4>
+                    <p>La experiencia Apple en su máxima expresión.</p>
+                    <span class="price">$1199</span>
+                    <a href="detalleProducto.html?id=iPhone15Pro" class="btn-secondary">Ver Detalles</a>
+                </div>
+                <div class="producto-card">
+                    <img src="../Images/GooglePixel.jpg" alt="Google Pixel 8 Pro">
+                    <h4>Google Pixel 8 Pro</h4>
+                    <p>Inteligencia artificial al alcance de tu mano.</p>
+                    <span class="price">$899</span>
+                    <a href="detalleProducto.html?id=iPhone15" class="btn-secondary">Ver Detalles</a>
+                </div>
+            </div>
+        </section>
+    </main>
+
+    <footer>
+        <div class="container">
+            <p>&copy; 2025 Tienda de Teléfonos. Todos los derechos reservados.</p>
+        </div>
+    </footer>
+
+    <script src="../Scripts/main.js"></script>
+    <script src="../Scripts/infoBoxes.js"></script>
+</body>
+</html>
